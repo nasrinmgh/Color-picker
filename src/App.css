@@ -1,0 +1,12 @@
+input {
+  width: 25rem;
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.color-box {
+  width: 25rem;
+  height: 12rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
