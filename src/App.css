@@ -1,12 +1,55 @@
-input {
+input,
+.sm-box,
+.color-box {
   width: 25rem;
   height: 2rem;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background-color: var(--input-background);
+  margin: 0 1.5rem;
 }
-.color-box {
-  width: 25rem;
-  height: 12rem;
-  border: 1px solid #ccc;
+
+.header,
+.color-code,
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0.5rem;
+}
+
+p {
+  margin-left: 1rem;
+  color: var(--secondary);
+}
+
+.header .color-icon {
+  color: #ffff;
+  background-color: #e9ebef;
   border-radius: 10px;
+  font-size: var(--icon-size);
+  margin: var(--icon-inline);
+  padding: 0.4rem;
+}
+
+.color-preview,
+.color-picker,
+.color-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.icon {
+  font-size: var(--icon-size);
+  color: var(--secondary);
+  margin: var(--icon-inline);
+}
+
+.color-box {
+  height: 6rem;
 }

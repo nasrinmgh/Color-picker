@@ -4,10 +4,12 @@ import { MdOutlineRemoveRedEye } from "react-icons/md";
 
 export default function ColorPreview() {
   return (
-    <>
-      <MdOutlineRemoveRedEye />
-      <p>Selected Color</p>
-      <div></div>
-    </>
+    <div className="color-preview">
+      <div className="container">
+        <MdOutlineRemoveRedEye className="icon" />
+        <p>Selected Color</p>
+      </div>
+      <div className="color-box"></div>
+    </div>
   );
 }

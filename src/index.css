@@ -1,0 +1,15 @@
+:root {
+  --accent: #e9ebef;
+  --primary: #030213;
+  --secondary: #717182;
+  --border: rgba(0, 0, 0, 0.1);
+  --input: transparent;
+  --input-background: #f3f3f5;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --font-size: 16px;
+  --background: #ffffff;
+  --radius: 0.625rem;
+  --icon-size: 1.5rem;
+  --icon-inline: 1rem;
+}

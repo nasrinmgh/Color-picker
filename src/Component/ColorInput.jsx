@@ -3,10 +3,12 @@ import { FiType } from "react-icons/fi";
 
 export default function ColorInput() {
   return (
-    <>
-      <FiType />
-      <p>Enter Color Code or Name</p>
+    <div className="color-input">
+      <div className="container">
+        <FiType className="icon" />
+        <p>Enter Color Code or Name</p>
+      </div>
       <input type="text" />
-    </>
+    </div>
   );
 }
