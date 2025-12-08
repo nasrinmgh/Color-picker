@@ -1,17 +1,31 @@
-input,
 .sm-box,
 .color-box {
   width: 25rem;
   height: 2rem;
-  border: 1px solid #ccc;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background-color: var(--input-background);
   margin: 0 1.5rem;
+  padding: 0 var(--input-padding);
+}
+
+input {
+  width: 25rem;
+  height: 2rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 0 1.5rem;
+  background: transparent;
+  padding: 0 var(--input-padding);
+  margin: 0 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+input:focus {
+  border: 1px solid var(--border);
 }
 
 .header,
-.color-code,
 .container {
   display: flex;
   flex-direction: row;
@@ -39,7 +53,7 @@ p {
 .color-input {
   display: flex;
   flex-direction: column;
-  gap: 0.1rem;
+
   justify-content: center;
   align-items: flex-start;
 }
@@ -52,4 +66,12 @@ p {
 
 .color-box {
   height: 6rem;
+}
+
+.hue-circle {
+  width: 7px;
+  height: 7px;
+  border: 1px solid var(--secondary);
+  border-radius: 50%;
+  background: transparent;
 }
